@@ -1,0 +1,234 @@
+.conatiner-wrapper{
+
+    width: 80%;
+    height: auto;
+    margin: auto;
+    z-index: 9;
+}
+
+.bgg-container {
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+  
+    width: 100%;
+    /* background: rgb(122,49,153); */
+    background: radial-gradient(
+      circle,
+      rgba(122, 49, 153, 1) 0%,
+      rgba(0, 0, 0, 1) 100%,
+      rgba(252, 70, 107, 1) 100%
+    );
+    height: 80%;
+    color: white;
+    position: absolute;
+  }
+  
+  .bgg-circles {
+    clip-path: circle(24.2% at 50% 50%);
+    width: 100%;
+    background: rgb(106, 45, 133);
+    /* background: radial-gradient(circle, rgba(122,49,153,1) 0%, rgba(0,0,0,1) 100%, rgba(252,70,107,1) 100%); */
+    height: 100%;
+    color: white;
+    position: absolute !important;
+    top: -50% !important;
+    left: -50% !important;
+    z-index: 9;
+  }
+  
+  .btnColors {
+    background: rgb(76, 116, 231);
+    background: linear-gradient(
+      90deg,
+      rgba(76, 116, 231, 1) 0%,
+      rgba(135, 86, 232, 1) 100%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  }
+  .box {
+    display: flex;
+    max-width: 24rem;
+    margin: 0 auto;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  /* content  box   */
+  .box-content {
+    margin-left: 0.5rem;
+    padding-top: 0.25rem;
+  }
+  .box-title {
+    color: #1a202c;
+    font-size: 1rem;
+    line-height: 1.25;
+    margin-bottom: 0.5rem;
+  }
+  .box-message {
+    color: #718096;
+    font-size: 0.7rem;
+    line-height: 1.5;
+  }
+  
+  .lastChild:nth-last-child(1) {
+    margin-top: 1rem !important;
+    margin-bottom: 0.2rem !important;
+    margin-left: -0.5rem !important;
+  }
+  
+  /* price box  box   */
+  
+  .plan-box {
+    display: flex;
+    max-width: 15rem;
+    height: 300px;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: rgb(122, 49, 153) 0px 1px 3px 0px,
+      rgb(122, 49, 153) 0px 0px 0px 1px;
+  }
+  
+  .plan-box-content {
+    margin-left: 0.5rem;
+    padding-top: 1.5rem;
+  }
+  .plan-box-title {
+    font-size: 1rem;
+    line-height: 1.25;
+    margin-bottom: 0.5rem;
+  }
+  .plan-box-message {
+    color: #718096;
+    font-size: 0.7rem;
+    line-height: 1.5;
+    font-weight: 1000;
+  }
+  
+  .plan-box > .plan-box-content > h1{
+    color: rgb(122, 49, 153);
+  }
+  
+  .title-subscription{
+    color: rgb(122, 49, 153);
+    border: 1px solid rgb(122, 49, 153);
+    border-radius: 0.2rem;
+  
+  }
+  
+  /* second last nth child css   */
+  .plan-box:nth-last-child(2) {
+    display: flex;
+    max-width: 15rem;
+    height: 300px;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    background-color: rgb(122, 49, 153);
+    box-shadow: rgb(122, 49, 153) 0px 1px 3px 0px,
+      rgb(122, 49, 153) 0px 0px 0px 1px;
+  }
+  
+  .plan-box:nth-last-child(2) > .plan-box-content > .plan-box-title{
+    font-size: 1rem;
+    line-height: 1.25;
+    margin-bottom: 0.5rem;
+    color: white;
+  }
+  
+  .plan-box:nth-last-child(2) > .plan-box-content > .plan-box-message{
+    font-size: 0.7rem;
+    line-height: 1.5;
+    color: white;
+  }
+  .plan-box:nth-last-child(2) > .plan-box-content > h1{
+    color: white;
+  }
+  
+  .plan-box:nth-last-child(2) > .plan-box-content > div > li {
+    color: white;
+  
+  }
+  .plan-box:nth-last-child(2) > .plan-box-content > div > .title-subscription{
+    border: 1px solid rgb(255, 255, 255);
+    background: white;
+    border-radius: 0.2rem;
+  
+  }
+  
+  .awssld__content{
+    background-color : transparent !important
+  }
+  
+  
+  
+  /* slider css   */
+  
+  
+  /* content  box   */
+  
+  
+  
+  .silders-box {
+    /* display: flex; */
+    max-width: 30rem;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  
+  
+  .silders-box-content {
+    margin-left: 0.5rem;
+    padding-top: 1rem;
+    display: flex;
+  
+  }
+  
+  
+  .silders-box-title {
+    color: #1a202c;
+    font-size: 1rem;
+    line-height: 1.25;
+    margin-bottom: 0.5rem;
+  }
+  
+  
+  .silders-box-message {
+    color: #718096;
+    font-size: 0.7rem;
+    line-height: 1.5;
+    padding-bottom: 1rem;
+  }
+
+
+  /* footer   */
+
+
+  .BgFooters {
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+  
+    width: 100%;
+    /* background: rgb(122,49,153); */
+    background: radial-gradient(
+      circle,
+      rgba(122, 49, 153, 1) 0%,
+      rgba(0, 0, 0, 1) 100%,
+      rgba(252, 70, 107, 1) 100%
+    );
+    height: 550px;
+    color: white;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .customZindex{
+    z-index: 9 !important;
+  }
